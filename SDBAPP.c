@@ -88,7 +88,7 @@ void SDB_action(uint8 choice)
         case ListIds:
 
             SDB_GetList(&count, idList);
-            printf("--------------------- Student List ---------------------\n");
+            printf("--------------------- Student ID List ---------------------\n");
             for (int8 i = count - 1; i >= 0; i--) {
                 printf("%d\n",idList[i]);
             }
